@@ -1,0 +1,51 @@
+
+/* mobile <680px */
+@media screen and (max-width: 679px) {
+    .mobile-menu {
+        display: block !important;
+    }
+    .fa-bars:hover {
+        background-color: orangered;
+        color: #fff;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    .slider-content {
+        display: none;
+    }
+    .content-detail {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 0%;
+    }
+
+    .mobile-col-ful {
+        width: 100%;
+    }
+
+    .member-avatar img {
+        width: 255px;
+        max-width: 100%;
+    }
+
+    .tour-time {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .tour-place {
+        padding: 16px;
+    }
+
+    .tour-place img {
+        width: 100%;
+    }
+    .contact-inf,
+    .contact-user {
+        padding: 0 16px;
+    }
+
+}
